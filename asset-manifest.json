@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/variable-z/Portfolio/static/css/main.cde277e6.css",
+    "main.js": "/variable-z/Portfolio/static/js/main.2d3d565c.js",
+    "static/media/Ps-Photo.jpg": "/variable-z/Portfolio/static/media/Ps-Photo.401944f87afcd6ac23a2.jpg",
+    "static/media/fa-solid-900.ttf": "/variable-z/Portfolio/static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
+    "static/media/fa-brands-400.ttf": "/variable-z/Portfolio/static/media/fa-brands-400.1815e00441357e01619e.ttf",
+    "static/media/fa-solid-900.woff2": "/variable-z/Portfolio/static/media/fa-solid-900.2463b90d9a316e4e5294.woff2",
+    "static/media/fa-brands-400.woff2": "/variable-z/Portfolio/static/media/fa-brands-400.c210719e60948b211a12.woff2",
+    "static/media/fa-regular-400.ttf": "/variable-z/Portfolio/static/media/fa-regular-400.914997e1bdfc990d0897.ttf",
+    "static/media/News-Classification-Image-Cover.jpg": "/variable-z/Portfolio/static/media/News-Classification-Image-Cover.e1092e7d69bcf49644cf.jpg",
+    "static/media/Hotel-Review-Image-Cover.jpg": "/variable-z/Portfolio/static/media/Hotel-Review-Image-Cover.d7551dc8d552b30153f0.jpg",
+    "static/media/Grocery-Store-Image-Cover.jpg": "/variable-z/Portfolio/static/media/Grocery-Store-Image-Cover.8fbce95b3bf6f775120f.jpg",
+    "static/media/Car-Resale-Price-Image-Cover.jpg": "/variable-z/Portfolio/static/media/Car-Resale-Price-Image-Cover.41d5d6d8875abf0c8c5a.jpg",
+    "static/media/fa-regular-400.woff2": "/variable-z/Portfolio/static/media/fa-regular-400.89999bdf5d835c012025.woff2",
+    "static/media/fa-v4compatibility.ttf": "/variable-z/Portfolio/static/media/fa-v4compatibility.da94ef451f4969af06e6.ttf",
+    "static/media/Handwritten-Digit-Classification-Image-Cover.webp": "/variable-z/Portfolio/static/media/Handwritten-Digit-Classification-Image-Cover.25c9edac3daf4f1d9c90.webp",
+    "static/media/fa-v4compatibility.woff2": "/variable-z/Portfolio/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
+    "index.html": "/variable-z/Portfolio/index.html",
+    "main.cde277e6.css.map": "/variable-z/Portfolio/static/css/main.cde277e6.css.map",
+    "main.2d3d565c.js.map": "/variable-z/Portfolio/static/js/main.2d3d565c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cde277e6.css",
+    "static/js/main.2d3d565c.js"
+  ]
+}
