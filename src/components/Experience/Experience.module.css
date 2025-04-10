@@ -1,5 +1,5 @@
 .experience {
-    background-color: #121212;
+    background-color: transparent;
     color: #f2f3f4;
     padding: 4rem 2rem;
   }
@@ -83,4 +83,30 @@
     background: #2c2c3e;
     transition: background 0.3s ease;
   }
+  .skills {
+    margin-top: 1rem;
+  }
+  .skills strong {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #e74c3c;
+  }
   
+  .skillList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  
+  .skillItem {
+    background: #34495e;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+  }
+  
+  .timelineContent:hover {
+    background: #2c2c3e;
+    transition: background 0.3s ease;
+  }

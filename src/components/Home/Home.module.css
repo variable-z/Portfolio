@@ -2,31 +2,46 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
   min-height: 100vh;
-  background-color: #121212;
+  background-color: transparent;
   color: #f2f3f4;
-  text-align: center;
-  padding: 2rem;
+  padding: 4rem 2rem;
 }
+
 .container {
-  max-width: 800px;
+  max-width: 1200px; /* Increased max-width for better spacing */
+  width: 100%;
 }
+
+.profileContainer {
+  display: flex;
+  align-items: center; /* Align items to the top */
+  justify-content: center;
+  gap: 3rem; /* Space between image and text */
+}
+
 .profile {
-  margin-bottom: 1.5rem;
+  flex: 1; /* Take up 1 part of the space */
+  display: flex;
+  justify-content: flex-start; /* Align image to the left */
 }
 
 .profileImage {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  border: 3px solid #e74c3c;
-  object-fit: cover;
+  width: auto; /* Allow the image to take its natural size */
+  height: 400px; /* Adjust height as needed */
+  border-radius: 10px; /* Optional: Add a slight border radius */
+  object-fit: cover; /* Ensure the image covers the area without distortion */
+}
+
+.content {
+  flex: 2; /* Take up 2 parts of the space */
+  text-align: left; /* Align text to the left */
 }
 
 .welcome {
   font-size: 2rem;
   color: #e74c3c;
+  margin-bottom: 1rem;
 }
 
 .title {
@@ -39,7 +54,6 @@
   font-size: 1.2rem;
   line-height: 1.6;
   margin-bottom: 2rem;
-  text-align: center;
 }
 
 .cta {

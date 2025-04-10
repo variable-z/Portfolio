@@ -24,4 +24,20 @@ body {
   html {
     scroll-behavior: smooth;
   }
+  .appContainer {
+    position: relative;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+  }
+  
+  section {
+    min-height: 100vh;
+    padding: 3rem 1rem;
+    color: #f2f3f4;
+    position: relative;
+  }
   

@@ -1,9 +1,9 @@
-.footer {
+/* .footer {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 1rem;
-  background-color: #121212;
+  background-color: transparent;
   color: #f2f3f4;
   text-align: center;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
@@ -12,4 +12,50 @@
 .footer p {
   margin: 0;
   font-size: 0.9rem;
+} */
+.footer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background: linear-gradient(135deg, #121212, #1e1e2f);
+  color: #f2f3f4;
+  text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  animation: floatUpDown 4s infinite ease-in-out;
+  overflow: hidden;
+}
+
+/* Particles Styling */
+.particles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+/* Glowing Text Effect */
+.glowingText {
+  margin: 0;
+  font-size: 1rem;
+  color: #f2f3f4;
+  text-shadow: 0 0 5px #e74c3c, 0 0 10px #e74c3c;
+  transition: text-shadow 0.4s ease;
+}
+
+.glowingText:hover {
+  text-shadow: 0 0 10px #e74c3c, 0 0 20px #e74c3c, 0 0 30px #e74c3c;
+}
+
+/* Floating Animation */
+@keyframes floatUpDown {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
 }

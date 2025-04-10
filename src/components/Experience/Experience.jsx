@@ -8,21 +8,23 @@ const Experience = () => {
       date: "Aug 2023 - Present",
       description:
         "Developed a data model for a hotel review system using 300,000+ entries, created an OCR-based solution for extracting Bloomberg Terminal data, streamlined data pipelines with Python and OCR, and analyzed 5+ years of supply chain data for actionable insights.",
+      skills: ["Python", "OCR (Tesseract)", "Regex", "Data Modeling", "Text Analytics"],
     },
     {
       title: "Programmer Analyst - Cognizant Technology Solutions",
       date: "Nov 2022 - Jul 2024",
       description:
         "Led the migration of 194+ reports from SAP BusinessObjects to Qlik Sense, optimized Oracle data loading, consolidated 207+ tables into key data models, and redesigned dashboards to improve usability and efficiency by 40%.",
+      skills: ["Qlik Sense", "Oracle", "Data Migration", "Dashboard Design", "SQL"],
     },
     {
       title: "Advanced Python Developer Intern - Cognizant Technology Solutions",
       date: "Feb 2022 - Sep 2022",
       description:
         "Optimized data ingestion with Hadoop tools, boosting efficiency by 40%, and executed advanced data transformations in Databricks using PySpark, reducing processing time by 30%.",
+      skills: ["Python", "PySpark", "Hadoop", "Databricks", "Data Transformation"],
     },
   ];
-
   return (
     <section className={styles.experience} id="experience">
       <h2 className={styles.title}>My Experience</h2>
@@ -36,6 +38,16 @@ const Experience = () => {
               <h3 className={styles.jobTitle}>{exp.title}</h3>
               <span className={styles.date}>{exp.date}</span>
               <p className={styles.description}>{exp.description}</p>
+              <div className={styles.skills}>
+                <strong>Skills Learned:</strong>
+                <div className={styles.skillList}>
+                  {exp.skills.map((skill, i) => (
+                    <span key={i} className={styles.skillItem}>
+                      {skill}
+                    </span>
+                  ))}
+                </div>
+              </div>
             </div>
           </div>
         ))}
