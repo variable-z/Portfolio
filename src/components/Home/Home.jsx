@@ -39,7 +39,17 @@ const Home = () => {
               data-driven strategies to create meaningful impact.
             </p>
             <div className={styles.cta}>
-              <a href="/Resume.pdf" className={styles.button} download>
+              <a href={`${import.meta.env.BASE_URL}Resume.pdf`} className={styles.button} download
+              onClick={() => {
+                if (window.gtag) {
+                  window.gtag('event', 'resume_download', {
+                    event_category: 'engagement',
+                    event_label: 'Resume from Home section',
+                    value: 1,
+                  });
+                }
+              }}
+              >
                 Download Resume
               </a>
               <a href="#contact" className={styles.buttonSecondary}>
